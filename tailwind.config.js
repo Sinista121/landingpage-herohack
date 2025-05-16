@@ -22,14 +22,16 @@ const config = {
       themes: {
         light: {
           colors: {
-            gradColor: "#ffffff41",
-            scrollColor: "#9d9d9d"
+            gradColor: "#fafafa",
+            scrollColor: "#9d9d9d",
+            borderColor: "#c5c5c5",
           },
         },
         dark: {
           colors: {
             gradColor: "#3b82f641",
-            scrollColor: "#2d2d2d"
+            scrollColor: "#2d2d2d",
+            borderColor: "#141414",
           },
         },
       },

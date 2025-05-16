@@ -1,24 +1,7 @@
 "use client";
 
-import { semanticColors } from "@heroui/theme";
-import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
-
 export default function Overlay() {
-  const { theme } = useTheme();
-  const [color, setColor] = useState<string>();
-
-  useEffect(() => {
-    if (theme) setColor(theme);
-  }, [theme]);
-
-  // const themeBackgroundColor = `${
-  //   (semanticColors[color === "dark" ? "dark" : "light"].background as any)
-  //     .DEFAULT
-  // }cd`;
-
   const themeBackgroundColor = "hsl(var(--heroui-background))";
-
   return (
     <>
       <div
