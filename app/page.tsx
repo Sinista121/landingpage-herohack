@@ -21,7 +21,7 @@ export default function Home() {
           }}
         />
 
-        <div className="inline-block max-w-2xl text-center justify-center px-[10%]">
+        <div className="inline-block max-w-2xl text-center justify-center px-[10%] md:px-0">
           <h1 className="text-4xl md:text-5xl font-bold">
             Bringing Dreams to Life with Passion and Precision.
           </h1>
