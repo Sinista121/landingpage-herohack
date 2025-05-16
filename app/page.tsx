@@ -86,6 +86,7 @@ export default function Home() {
             </p>
           </div>
           <img
+            alt="Loading..."
             className="rounded-xl shadow-lg w-[70%] border-2 border-scrollColor mx-auto md:mx-0 md:ms-auto bg-foreground/20 p-10"
             src="/ui.svg"
           />
@@ -101,6 +102,7 @@ export default function Home() {
             </p>
           </div>
           <img
+            alt="Loading..."
             className="rounded-xl shadow-lg w-[70%] border-2 border-scrollColor mx-auto md:mx-0 md:ms-auto bg-foreground/20 p-10"
             src="/cheap.svg"
           />
