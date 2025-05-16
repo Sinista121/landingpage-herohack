@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --heroui-color-background: red !important;
+}
+
+html,
+body {
+  /* background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210915/pngtree-noise-texture-black-background-image_880568.jpg") !important; */
+}
+
+.grad {
+  background: radial-gradient(circle, #008cff4c 50%, transparent 100%);
+}
+
+#hemisphere {
+  clip-path: url("#hemisphere");
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--heroui-scrollColor));
+  border-radius: 10px;
+}
